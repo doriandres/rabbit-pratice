@@ -1,0 +1,17 @@
+{
+  "name": "rabbit-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "producer.js",
+  "scripts": {
+    "produce": "node producer.js",
+    "consume": "node consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.7.1",
+    "dotenv": "^8.2.0"
+  }
+}
